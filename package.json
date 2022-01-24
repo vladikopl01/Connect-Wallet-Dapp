@@ -21,6 +21,10 @@
     "typescript": "^3.9.10",
     "web-vitals": "^0.2.4"
   },
+  "resolutions": {
+    "@ethersproject/abi": "5.2.0",
+    "@ethersproject/contracts": "5.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -41,5 +45,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@chakra-ui/icons": "^1.0.15",
+    "@fontsource/inter": "^4.5.0",
+    "@metamask/jazzicon": "^2.0.0",
+    "@solana/wallet-adapter-base": "^0.6.0",
+    "@solana/wallet-adapter-react": "^0.12.3",
+    "@solana/wallet-adapter-react-ui": "^0.5.0",
+    "@solana/wallet-adapter-wallets": "^0.10.0",
+    "@solana/web3.js": "^1.29.1",
+    "@usedapp/core": "^0.4.8",
+    "ethers": "^5.4.7"
   }
 }
